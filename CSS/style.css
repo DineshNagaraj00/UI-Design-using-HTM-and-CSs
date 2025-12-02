@@ -1,0 +1,529 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    text-decoration: none;
+}
+.one {
+    height: 1000px;
+    width: 100%;
+    background-color:#d6f2f4;
+}
+nav img {
+    position: absolute;
+    height: 80px;
+    margin-left: 250px;
+    margin-top: 20px;
+    position: absolute;
+}
+nav ul {
+    position:absolute;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 100px;
+    margin-right: 30px;
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.one .second h1 {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 500px;
+    font-size: 200px;
+    /* background: url(/Image/mask.jpg); */
+    -webkit-background-clip: text;
+    /* -webkit-text-fill-color: transparent; */
+}
+.one .second img {
+    position: absolute;
+    height: 700px;
+    margin-left: 700px;
+    margin-top: 80px;
+    animation: Dinesh;
+    animation-duration: 5s;
+}
+@keyframes Dinesh {
+    from{bottom:-350px;opacity: 0;}
+    to{bottom:75px; opacity: 10;}
+}
+.one .second p {
+    position: absolute;
+    font-size: 20px;
+    margin-top: 300px;
+    margin-left: 1300px;
+    font-size: 15px;
+    color: grey;
+}
+.circle {
+    height: 500px;
+    width: 500px;
+    background-color: #d6f2f4;
+    margin-top: 250px;
+    margin-left: 250px;
+    border-radius: 50%;
+}
+.circle img {
+    position: absolute;
+    height: 800px;
+    margin-top: -200px;
+    animation: dineshkumar;
+    animation-duration: 4s;
+}
+@keyframes dineshkumar {
+    from{left:-50px;opacity: 0;}
+    to{left: 0px; opacity: 10;}
+}
+
+.words h3 {
+    font-size: 50px;
+    margin-left: 900px;
+    margin-top: -500px;
+    font-weight: lighter;
+}
+.words h2 {
+    position: absolute;
+    font-size: 68px;
+    margin-left: 1200px;
+    margin-top: -100px;
+}
+ .line {
+    position: absolute;
+    height: 2px;
+    width: 180px;
+    background-color: black;
+    margin-left: 980px;
+    margin-top: -30px;
+}
+.para p {
+    font-size: 18px;
+    color: gray;
+    margin-left: 900px;
+    margin-top: 100px;
+}
+.boxone {
+    height: 100px;
+    width: 100px;
+    background-color: #d6f2f4;
+    margin-left: 900px;
+    margin-top: 50px;
+}
+.boxone h1 {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.boxone h2 {
+    position: absolute;
+    margin-top: 60px;
+    font-weight: lighter;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.boxtwo {
+    height: 100px;
+    width: 100px;
+    background-color: #d6f2f4;
+    margin-left: 1050px;
+    margin-top: -100px;
+}
+.boxtwo h1 {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.boxtwo h2 {
+    position: absolute;
+    margin-top: 60px;
+    font-weight: lighter;
+    font-size: 15px;
+    margin-left: 15px;
+}
+.boxthree {
+    height: 100px;
+    width: 100px;
+    background-color: #d6f2f4;
+    margin-left: 1200px;
+    margin-top: -100px;
+}
+.boxthree h1 {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.boxthree h2 {
+    position: absolute;
+    margin-top: 60px;
+    font-weight: lighter;
+    font-size: 15px;
+    margin-left: 25px;
+}
+.linetwo {
+    position: absolute;
+    height: 100px;
+    width: 2px;
+    background-color: black;
+    margin-left: 1380px;
+    margin-top: 130px;
+}
+.circletwo {
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    background-color: #d6f2f4;
+    margin-top: 400px;
+}
+.circletwo img{
+    position: absolute;
+    height: 950px;
+    margin-left: 900px;
+    margin-top: -200px;
+    animation: Dineshtwo;
+    animation-duration: 4s;
+}
+@keyframes Dineshtwo {
+    from{left:100px;opacity: 0;}
+    to{left: 0px; opacity: 10;}
+}
+.recent h3 {
+    position: absolute;
+    font-size: 50px;
+    margin-left: 200px;  
+    margin-top: 500px; 
+    font-weight: lighter; 
+}
+.recent h1 {
+    position: absolute;
+    font-size: 50px;
+    margin-left: 450px;  
+    margin-top: 500px; 
+    font-weight: lighter; 
+}
+.linestwo {
+    position: absolute;
+    background-color: black;
+    height: 2px;
+    width: 100px;
+    margin-left: 300px;  
+    margin-top: 530px;
+    
+}
+.paras p {
+    position: absolute;
+    font-size: 18px;
+    color: gray;
+    margin-left: 200px;
+    margin-top: 700px;
+}
+.once img {
+    position: absolute;
+    margin-top: 850px;
+    margin-left: 200px;
+}
+.twos img {
+    position: absolute;
+    margin-top: 850px;
+    margin-left: 400px;
+}
+.threes img {
+    position: absolute;
+    margin-top: 860px;
+    margin-left: 600px;
+}
+.rounding {
+    height: 500px;
+    width: 500px;
+    background-color: #d6f2f4;
+    margin-top: 1250px;
+    margin-left: 250px;
+    border-radius: 50%;
+}
+.rounding img {
+    position: absolute;
+    height: 700px;
+    margin-top: -50px;
+    margin-left: -80px;
+}
+.wording h3 {
+    position: absolute;
+    font-size: 50px;
+    margin-left: 900px;  
+    margin-top: -450px; 
+    font-weight: lighter;
+}
+.wording h1 {
+    position: absolute;
+    font-size: 50px;
+    margin-left: 1150px;  
+    margin-top: -450px; 
+}
+.linethree {
+    position: absolute;
+    background-color: black;
+   height: 2px;
+   width: 150px;
+    margin-top: -420px;
+    margin-left: 970px;    
+}
+.square {
+   height: 100px;
+   width: 100px;
+   background-color: #d6f2f4;
+   margin-left: 890px;
+   margin-top: -250px;
+}
+.square h1 {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.square h2 {
+    position: absolute;
+    margin-top: 60px;
+    font-weight: lighter;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.square h3 {
+    position: absolute;
+    margin-left: 150px;
+    color: gray;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+.square h4 {
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 70px;
+    font-size: 20px;
+}
+.square p {
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 150px;
+    font-size: 20px;
+    color: gray;
+    font-weight: lighter
+}
+.lining {
+    position: absolute;
+    height: 1px;
+    width: 500px;
+    background-color:grey;
+    margin-top: 250px;
+}
+.boxces {
+    height: 100px;
+    width: 100px;
+    background-color: #d6f2f4;
+    margin-left: 890px;
+    margin-top: 200px;
+ }
+ .boxces h1 {
+     position: absolute;
+     margin-top: 20px;
+     margin-left: 30px;
+ }
+ .boxces h2 {
+     position: absolute;
+     margin-top: 60px;
+     font-weight: lighter;
+     font-size: 15px;
+     margin-left: 10px;
+ }
+ .boxces h3 {
+     position: absolute;
+     margin-left: 150px;
+     color: gray;
+     font-weight: lighter;
+     margin-top: 20px;
+ }
+ .boxces h4 {
+     position: absolute;
+     margin-left: 150px;
+     margin-top: 70px;
+     font-size: 20px;
+ }
+ .boxces p {
+     position: absolute;
+     margin-left: 0px;
+     margin-top: 150px;
+     font-size: 20px;
+     color: gray;
+     font-weight: lighter
+ }
+.contact .wordings h3 {
+    position: absolute;
+    font-size: 50px;
+    margin-left: 300px;  
+    margin-top: 350px; 
+    font-weight: lighter;
+}
+.contact .wordings h1 {
+    position: absolute;
+    font-size: 50px;
+    margin-left: 550px;  
+    margin-top: 350px; 
+}
+.contact .wordings p {
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 300px;
+    color: grey;
+    font-weight: lighter;
+}
+.linefour {
+    position: absolute;
+    background-color: black;
+   height: 2px;
+   width: 150px;
+    margin-top: 380px;
+    margin-left: 370px;    
+}
+.countbox {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: #d6f2f4;
+    margin-left: 300px;
+    margin-top: 600px;
+ }
+ .countbox img {
+    margin-top: 40px;
+    margin-left: 35px;
+ }
+ .countbox h1 {
+    margin-left: 150px;
+    font-size: 20px;
+    margin-top: -50px;
+ }
+ .koo p {
+    position: absolute;
+    margin-left: 450px;
+    font-size: 10px;
+    margin-top: 670px;
+    font-size: 15px;
+    color: gray;
+ }
+ .countboxtwo {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: #d6f2f4;
+    margin-left: 650px;
+    margin-top: 600px;
+ }
+ .countboxtwo img {
+    margin-top: 40px;
+    margin-left: 35px;
+ }
+ .countboxtwo h1 {
+    margin-left: 150px;
+    font-size: 20px;
+    margin-top: -50px;
+ }
+ .kookoo p {
+    position: absolute;
+    margin-left: 800px;
+    font-size: 10px;
+    margin-top: 660px;
+    font-size: 15px;
+    color: gray;
+ }
+ .bluebox {
+    position: absolute;
+    height: 500px;
+    width: 855px;
+    background-color: #d6f2f4;
+    margin-top: 350px;
+    margin-left: 1000px;
+}
+.blue h1 {
+    position: absolute;
+    font-size: 20px;
+    margin-left: 80px;
+    margin-top: 70px;
+}
+
+.blue .inputbox input {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 100px;
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    background-color: transparent;
+    font-size: 15px;
+    padding-right: 400px;
+
+}
+.blue .email input {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 100px;
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    background-color: transparent;
+    font-size: 15px;
+    padding-right: 400px;
+
+}
+.blue .msg input {
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 100px;
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    background-color: transparent;
+    font-size: 15px;
+    padding-right: 400px;
+
+}
+.blue button {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 400px;
+    margin-left: 600px;
+}
+.last {
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    background-color: #1c151d;
+    margin-top: 850px;
+}
+.last img {
+    margin-top: 70px;
+    margin-left: 300px;
+}.last ul {
+    position:absolute;
+    margin-left: 800px;
+    margin-top: -70px;
+}
+.last ul li {
+    display: inline-block;
+    line-height: 100px;
+    margin-right: 30px;
+}
+.last ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: "Oswald",Sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+}
